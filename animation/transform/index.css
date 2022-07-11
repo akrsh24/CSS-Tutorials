@@ -1,0 +1,43 @@
+body {
+  background: #7a698f;
+}
+
+/*
+TRANSFORM along X Axis
+*/
+
+.robot {
+  transform: translateX(100px);
+}
+
+/*
+TRANSFORM along Y Axis
+*/
+
+.robot {
+  transform: translateY(100px);
+}
+
+/*
+TRANSFORM along X & Y Axis
+*/
+
+.robot {
+  transform: translate(100px, 200px);
+}
+
+/*
+TRANSFORM along X & Y Axis, Scale and Rotate
+*/
+
+.robot {
+  /* transform: translate(100px, 200px) scale(2) rotate(90deg); */
+}
+
+/*
+TRANSFORM 3D
+*/
+
+.robot {
+  transform: perspective(500px) translate3d(42px, -62px, -1005px);
+}
